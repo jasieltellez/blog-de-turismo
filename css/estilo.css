@@ -1,7 +1,125 @@
-.redes-sociales a{
-border-radius: 50%;
+
+
+
+body{
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
 }
+.logo{
+  border-radius: 5px;
+  margin-top: 3em;
+}
+nav{
+  -webkit-box-shadow:none;
+  background-color:inherit;
+
+}
+.slogan{
+  margin-top: 1.8em;
+  color: white;
+}
+.redes-sociales li{
+padding-top: 1em;
+}
+
+.fa:hover {
+   opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+   border-radius: 15% 0 0 15% ;
+}
+
+/* Twitter */
+.fa-twitter {
+   background: #55ACEE;
+   color: white;
+}
+.fa-google{
+  background: #F7931E;
+  color: white;
+}
+.fa-pinterest{
+  background:#cb2027;;
+  color: white;
+}
+.fa-instagram{
+  background: #337ab7;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.galeria img{
+  padding-top: 0.3em !important;
+  padding-bottom: 0.3em !important;
+}
+
  .datos-autor img{
   margin-top: 1em;
 
  }
+.articulo{
+  background-color: white;
+
+}
+.articulo-item{
+  padding: 1em;
+}
+
+
+
+
+ .comentarios{
+   background-color:  #70c5da;
+   color: white ;
+ }
+ .frm-comment{
+   padding: 2em;
+ }
+
+ /* label color */
+    .input-field label {
+      color: white;
+    }
+    /* label focus color */
+    .input-field input[type=text]:focus + label {
+      color: #000;
+    }
+    /* label underline focus color */
+    .input-field input[type=text]:focus {
+      border-bottom: 1px solid white;
+      box-shadow: 0 1px 0 0 white;
+    }
+    /* valid color */
+    .input-field input[type=text].valid {
+      border-bottom: 1px solid white;
+      box-shadow: 0 1px 0 0 white;
+    }
+    /* invalid color */
+    .input-field input[type=text].invalid {
+      border-bottom: 1px solid white;
+      box-shadow: 0 1px 0 0 white;
+    }
+    /* icon prefix focus color */
+    .input-field .prefix.active {
+      color: white;
+    }
